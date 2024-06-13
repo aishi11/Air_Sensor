@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "BIMAYURAISYAH";
-const char* password = "rinisukemi";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASS";
 
-const char* serverName = "http://192.168.100.12:5000/endpoint";
+const char* serverName = "http://YOUR_SERVER/endpoint";
 
 const int mq135AnalogPin = 22; // Analog pin connected to GPIO 22
 const int mq135DigitalPin = 23; // Digital pin connected to GPIO 23
